@@ -47,6 +47,7 @@ function WeatherDetails(
    
     return (
         <div>
+        <div> <h2>Search any city to check its weather details</h2> </div>
             <div className='widget'>
                 <div className='weatherIcon'>
                     <i className={`wi ${weatherState}`}></i>

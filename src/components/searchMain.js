@@ -4,7 +4,7 @@ import WeatherDetails from '../components/weatherDetails';
 
 function SearchMain() {
 
-    const [searchTerm, setSearchTerm] = useState("krakow");
+    const [searchTerm, setSearchTerm] = useState("");
     const [tempInfo , setTempInfo] = useState({});
 
     const getWeatherInfo = async () =>{
