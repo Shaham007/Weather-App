@@ -48,7 +48,7 @@ function SearchMain() {
     return (
         <>
         <div className="main">
-                <div className="webdesigntuts-workshop">
+                <div className="search-box">
                     <form action="" method="">
 
                         <input placeholder="Search City.." 

@@ -19,7 +19,7 @@ function WeatherDetails(
 
      if (weatherType){
           switch (weatherType){
-              case 'Clouds': setWeatherState('wi-night-cloudy');
+              case 'Clouds': setWeatherState('wi-cloudy');
               break;
               case 'Haze': setWeatherState('wi-fog');
               break;
@@ -27,11 +27,15 @@ function WeatherDetails(
               break;
               case 'Mist': setWeatherState('wi-dust');
               break;
-              case 'Rain': setWeatherState('wi-day-rain');
+              case 'Rain': setWeatherState('wi-rain');
               break;
               case 'Snow': setWeatherState('wi-snow-wind');
               break;
               case 'Smoke': setWeatherState('wi-smog');
+              break;
+              case 'Smog': setWeatherState('wi-smog');
+              break;
+              case 'Fog': setWeatherState('wi-fog');
               break;
           }
      }   
@@ -71,7 +75,7 @@ function WeatherDetails(
                     <div className='temp-info-minmax'>
                         <div className='two-sided-section'>
                             <p className='extre-info-leftside'>
-                                <i className="wi wi-snow"></i>
+                                <i className="wi wi-day-haze"></i>
                             </p>
                             <p>
                                 {timeStr} pm <br/> Sunset
